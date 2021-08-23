@@ -14,6 +14,8 @@ para usar mais de um componente react no store theme, em store-block-template->s
   
   copiar os conteúdos das subpastas deste repositório ao store-block-template e store-theme clonados.
   
+  entra via terminal no diretório react de store-block-template  e digitar npm i para ter todos os pacotes necessários.
+  
   entrar nas pastas em terminais separados e digitar vtex link(caso possua uma conta VTEX:
   store-block-template
   store-theme
