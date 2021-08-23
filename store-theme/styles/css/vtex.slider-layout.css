@@ -1,0 +1,29 @@
+.sliderLayoutContainer {
+  justify-content: center;
+  background-color: white;
+}
+.sliderLayoutContainer--carousel {
+  /*background-color: #F0F0F0;*/
+  background-color: black;
+}
+
+.sliderTrackContainer {
+  max-width: 1520px;
+}
+
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 296rem;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}

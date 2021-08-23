@@ -1,0 +1,237 @@
+{
+  "vtex.menu@2.x:menu#Products": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#news"
+    ]
+  },
+  "menu-item#news": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.upmedal.com/cadastro",
+        "noFollow": false,
+        "tagTitle": "News",
+        "text": "Entrar"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#smartphones"
+    ]
+  },
+
+  "menu-item#smartphones": {
+    "props": {
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/upMedal",
+        "noFollow": true,
+        "tagTitle": "Smartphones",
+        "text": "Loja"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-bags": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "countdown"
+    ]
+  },
+
+  "menu-item#bags": {
+    "props": {
+      "id": "menu-item-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Bags",
+        "text": "suporte"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-clothing": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing"
+    ]
+  },
+
+  "menu-item#clothing": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.upmedal.com/desafios",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Desafios"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-leads":{
+    "props":{
+      "orientation": "vertical"
+    },
+    "children":[
+      "modal-trigger#leads"   
+    ]
+  },
+
+  "modal-trigger#leads":{
+    "children":[
+      "menu-item#trigger", 
+      "modal-layout#leads"
+    ]
+  },
+
+  "menu-item#trigger": {
+    "props": {
+      "id": "menu-item-leads",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Bags",
+        "text": "Cadastre-se na nossa lead."
+      }
+    }
+  },
+  
+  "modal-layout#leads":{
+    "children":[
+      "rich-text#leads",
+      "countdown.leads"
+    ]
+  },
+
+  "rich-text#leads":{
+    "props":{
+      "text":"Bem-vindo ao cadastro"
+    }    
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing-mobile",
+      "menu-item#decoration-mobile",
+      "menu-item#sale-mobile",
+      "menu-item#suporte-mobile",
+      "vtex.menu@2.x:menu#footer-leads"
+    ]
+  },
+
+  "menu-item#suporte-mobile":{
+  "children":["countdown"],
+    "props":{
+      "id": "menu-item-category-suporte-mobile",
+      "type":"custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps":{
+        "text":"",
+        "paddingLeft": 20
+      }
+    }      
+  },
+
+  "menu-item#clothing-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.upmedal.com/cadastro",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Entrar"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#decoration-mobile"
+    ]
+  },
+
+  "menu-item#decoration-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Decoration",
+        "type":"external",
+        "href":"https://www.upmedal.com/desafios",  
+        "text": "Desafios"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#smartphones"
+    ]
+  },
+
+  "menu-item#sale-mobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/upMedal",
+        "tagTitle": "Sale",
+        "text": "Loja"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#smartphones"
+    ]
+  }
+}
